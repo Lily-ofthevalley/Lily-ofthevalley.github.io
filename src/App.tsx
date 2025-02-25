@@ -10,6 +10,7 @@ function App() {
       <AboutMe />
       <Seperator title="Technologies" />
       <Technologies />
+      <Seperator title="Projects" />
     </div>
   );
 }

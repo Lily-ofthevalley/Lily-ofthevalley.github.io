@@ -2,7 +2,7 @@ import Icon from "../assets/icon.jpeg";
 
 const Header = () => {
   return (
-    <div className="bg-[#795B82] flex flex-row sticky w-full">
+    <div className="bg-[#795B82] flex flex-row w-full fixed z-50 shadow-lg">
       <div className="w-[10%] ml-12 flex items-center">
         <img src={Icon} alt="Lily of the valley" className="h-12 w-auto" />
       </div>

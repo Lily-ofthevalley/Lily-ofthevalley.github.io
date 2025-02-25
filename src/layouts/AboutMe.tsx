@@ -4,7 +4,7 @@ import Text from "../components/AboutMe/Text";
 
 const AboutMe = () => {
   return (
-    <div className="w-3/5 h-[40%] my-3 flex">
+    <div className="w-3/5 h-[40%] mt-24 flex">
       <div className="w-1/3 h-full flex flex-col">
         <Image />
         <Socials />
