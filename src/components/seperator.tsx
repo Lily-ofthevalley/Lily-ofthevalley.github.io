@@ -2,12 +2,12 @@ interface Props {
   title: string;
 }
 
-const seperator = ({ title }: Props) => {
+const Seperator = ({ title }: Props) => {
   return (
-    <div className="border-2 border-white w-full">
-      <b className="text-6xl">{title}</b>
+    <div className="border-b-3 border-white w-4/5 flex justify-center">
+      <p className="text-6xl p-8">{title}</p>
     </div>
   );
 };
 
-export default seperator;
+export default Seperator;
