@@ -1,14 +1,10 @@
 import Image from "../components/AboutMe/Image";
-import Socials from "../components/AboutMe/Socials";
 import Text from "../components/AboutMe/Text";
 
 const AboutMe = () => {
   return (
-    <div className="w-3/5 h-[40%] mt-24 flex">
-      <div className="w-1/3 h-full flex flex-col">
-        <Image />
-        <Socials />
-      </div>
+    <div className="w-5/6 h-[30%] mt-24 flex bg-[#DDB6C6] rounded-2xl">
+      <Image />
       <Text />
     </div>
   );

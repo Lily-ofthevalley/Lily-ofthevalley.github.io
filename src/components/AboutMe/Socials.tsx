@@ -4,7 +4,7 @@ import linkedin from "../../assets/linkedin-logo.svg";
 
 const Socials = () => {
   return (
-    <div className="bg-[#DDB6C6] rounded-xl flex justify-evenly items-center p-4 m-3">
+    <div className="bg-[#DDB6C6] rounded-xl flex justify-evenly items-center p-4 m-3 w-">
       <a href="https://github.com/Lily-ofthevalley" target="_blank">
         <img src={github} alt="Github logo" className="w-auto h-12 m-3" />
       </a>

@@ -1,6 +1,6 @@
 const Text = () => {
   return (
-    <div className="bg-[#DDB6C6] rounded-xl flex flex-col justify-start items-center p-4 m-3 w-2/3">
+    <div className="flex flex-col justify-start items-center p-4 m-3 w-2/3">
       <h1 className="font-extrabold text-3xl">About me</h1>
       <p className="mt-2">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum error at ab
