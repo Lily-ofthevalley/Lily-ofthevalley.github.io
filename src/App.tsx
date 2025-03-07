@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Seperator from "./components/seperator";
+import Seperator from "./components/Seperator";
 import AboutMe from "./layouts/AboutMe";
 import Technologies from "./layouts/Technologies";
 
@@ -11,6 +11,8 @@ function App() {
       <Seperator title="Technologies" />
       <Technologies />
       <Seperator title="Projects" />
+      <Seperator title="Experience/Education" />
+      <Seperator title="Contact" />
     </div>
   );
 }
