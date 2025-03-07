@@ -9,7 +9,10 @@ function App() {
     <div className="flex flex-col items-center">
       <Header />
       <Socials />
-      <AboutMe />
+      <div className="h-screen w-full flex justify-center mt-36">
+        <AboutMe />
+      </div>
+
       <Seperator title="Technologies" />
       <Technologies />
       <Seperator title="Projects" />
