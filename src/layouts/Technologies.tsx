@@ -5,8 +5,6 @@ import html from "../assets/html-5-svgrepo-com.svg";
 import css from "../assets/css-3-svgrepo-com.svg";
 import javascript from "../assets/javascript-svgrepo-com.svg";
 import sql from "../assets/sql-database-generic-svgrepo-com.svg";
-import java from "../assets/java-svgrepo-com.svg";
-import php from "../assets/php-svgrepo-com.svg";
 import django from "../assets/django-svgrepo-com.svg";
 import react from "../assets/react-svgrepo-com.svg";
 import tailwind from "../assets/tailwind-svgrepo-com.svg";
