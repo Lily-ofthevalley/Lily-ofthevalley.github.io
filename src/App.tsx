@@ -1,7 +1,8 @@
 import Header from "./components/Header";
-import Seperator from "./components/Seperator";
 import Socials from "./components/Socials";
 import AboutMe from "./layouts/AboutMe";
+import Experience from "./layouts/Experience";
+import Projects from "./layouts/Projects";
 import Technologies from "./layouts/Technologies";
 
 function App() {
@@ -13,12 +14,14 @@ function App() {
         <AboutMe />
       </div>
       <div className="w-full flex justify-center pt-3 pb-3">
+        <Experience />
+      </div>
+      <div className="w-full flex justify-center pt-3 pb-3">
         <Technologies />
       </div>
-
-      <Seperator title="Projects" />
-      <Seperator title="Experience/Education" />
-      <Seperator title="Contact" />
+      <div className="w-full flex justify-center pt-3 pb-3">
+        <Projects />
+      </div>
     </div>
   );
 }
