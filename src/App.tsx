@@ -13,11 +13,9 @@ function App() {
       <div className="h-screen w-full flex justify-center mt-36">
         <AboutMe />
       </div>
-      <div className="w-full flex justify-center pt-3 pb-3">
-        <Experience />
-      </div>
-      <div className="w-full flex justify-center pt-3 pb-3">
+      <div className="w-full flex flex-row justify-center pt-3 pb-3 pl-10 pr-10">
         <Technologies />
+        <Experience />
       </div>
       <div className="w-full flex justify-center pt-3 pb-3">
         <Projects />
