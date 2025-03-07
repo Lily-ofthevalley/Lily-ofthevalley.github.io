@@ -1,5 +1,4 @@
 import Card from "../components/Technologies/Card";
-import Seperator from "../components/Technologies/Seperator";
 import python from "../assets/python-svgrepo-com.svg";
 import typescript from "../assets/typescript-official-svgrepo-com.svg";
 import html from "../assets/html-5-svgrepo-com.svg";
