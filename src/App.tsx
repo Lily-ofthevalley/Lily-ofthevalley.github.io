@@ -12,9 +12,10 @@ function App() {
       <div className="h-screen w-full flex justify-center mt-36">
         <AboutMe />
       </div>
+      <div className="w-full flex justify-center pt-3 pb-3">
+        <Technologies />
+      </div>
 
-      <Seperator title="Technologies" />
-      <Technologies />
       <Seperator title="Projects" />
       <Seperator title="Experience/Education" />
       <Seperator title="Contact" />
