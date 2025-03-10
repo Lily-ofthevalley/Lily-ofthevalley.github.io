@@ -1,17 +1,17 @@
 import Card from "../components/Technologies/Card";
-import python from "../assets/python-svgrepo-com.svg";
-import typescript from "../assets/typescript-official-svgrepo-com.svg";
-import html from "../assets/html-5-svgrepo-com.svg";
-import css from "../assets/css-3-svgrepo-com.svg";
-import javascript from "../assets/javascript-svgrepo-com.svg";
-import sql from "../assets/sql-database-generic-svgrepo-com.svg";
-import django from "../assets/django-svgrepo-com.svg";
-import react from "../assets/react-svgrepo-com.svg";
-import tailwind from "../assets/tailwind-svgrepo-com.svg";
-import azure from "../assets/azure-svgrepo-com.svg";
-import github from "../assets/github-142-svgrepo-com (2).svg";
-import mysql from "../assets/mysql-logo-svgrepo-com.svg";
-import figma from "../assets/figma-svgrepo-com.svg";
+import python from "../assets/logos/technologies/python-svgrepo-com.svg";
+import typescript from "../assets/logos/technologies/typescript-official-svgrepo-com.svg";
+import html from "../assets/logos/technologies/html-5-svgrepo-com.svg";
+import css from "../assets/logos/technologies/css-3-svgrepo-com.svg";
+import javascript from "../assets/logos/technologies/javascript-svgrepo-com.svg";
+import sql from "../assets/logos/technologies/sql-database-generic-svgrepo-com.svg";
+import django from "../assets/logos/technologies/django-svgrepo-com.svg";
+import react from "../assets/logos/technologies/react-svgrepo-com.svg";
+import tailwind from "../assets/logos/technologies/tailwind-svgrepo-com.svg";
+import azure from "../assets/logos/technologies/azure-svgrepo-com.svg";
+import github from "../assets/logos/technologies/github-142-svgrepo-com (2).svg";
+import mysql from "../assets/logos/technologies/mysql-logo-svgrepo-com.svg";
+import figma from "../assets/logos/technologies/figma-svgrepo-com.svg";
 
 const Technologies = () => {
   return (
