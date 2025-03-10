@@ -3,14 +3,13 @@ import Icon from "../assets/icon.jpeg";
 const Header = () => {
   return (
     <div className="bg-[#795B82] flex flex-row w-full fixed z-50 shadow-lg">
-      <div className="w-[10%] ml-12 flex items-center">
+      <div className="w-1/12 ml-12 flex items-center">
         <img src={Icon} alt="Lily of the valley" className="h-12 w-auto" />
       </div>
-      <div className="w-[90%] flex justify-evenly py-6">
+      <div className="w-1/2 ml-auto flex justify-evenly py-6">
         <a href="/AboutMe">About me</a>
-        <a href="/Technologies">Technologies</a>
+        <a href="/Technologies">Technologies/Experience</a>
         <a href="/Projects">Projects</a>
-        <a href="/Experience">Experience</a>
         <a href="/Contact">Contact</a>
       </div>
     </div>
