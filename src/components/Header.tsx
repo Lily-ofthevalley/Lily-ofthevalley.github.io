@@ -7,10 +7,21 @@ const Header = () => {
         <img src={Icon} alt="Lily of the valley" className="h-12 w-auto" />
       </div>
       <div className="w-1/2 ml-auto flex justify-evenly py-6">
-        <a href="/AboutMe">About me</a>
-        <a href="/Technologies">Technologies/Experience</a>
-        <a href="/Projects">Projects</a>
-        <a href="/Contact">Contact</a>
+        <a href="/AboutMe" className="duration-300 ease-in-out hover:scale-115">
+          About me
+        </a>
+        <a
+          href="/Technologies"
+          className="duration-300 ease-in-out hover:scale-115"
+        >
+          Technologies/Experience
+        </a>
+        <a
+          href="/Projects"
+          className="duration-300 ease-in-out hover:scale-115"
+        >
+          Projects
+        </a>
       </div>
     </div>
   );
