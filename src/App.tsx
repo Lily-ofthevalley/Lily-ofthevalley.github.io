@@ -12,13 +12,13 @@ function App() {
       <Header />
       <Socials />
       <div
-        className="w-full flex justify-center mt-36 mb-36 scroll-m-36"
+        className="w-full flex justify-center mt-36 mb-12 md:mb-36 scroll-m-36"
         id="home"
       >
         <AboutMe />
       </div>
       <div
-        className="w-full flex flex-row justify-center pt-3 pb-3 pl-10 pr-10 scroll-m-24"
+        className="w-full flex flex-col  justify-center pt-3 pb-3 pl-10 pr-10 scroll-m-24 md:flex-row"
         id="technologies"
       >
         <Technologies />
