@@ -12,6 +12,7 @@ import azure from "../assets/logos/technologies/azure-svgrepo-com.svg";
 import github from "../assets/logos/technologies/github-142-svgrepo-com (2).svg";
 import mysql from "../assets/logos/technologies/mysql-logo-svgrepo-com.svg";
 import figma from "../assets/logos/technologies/figma-svgrepo-com.svg";
+import docker from "../assets/logos/technologies/docker-svgrepo-com.svg";
 
 const Technologies = () => {
   return (
@@ -40,7 +41,7 @@ const Technologies = () => {
             <Card image={github} text="Github" />
             <Card image={mysql} text="MySQL" />
             <Card image={figma} text="Figma" />
-            <Card image="" text="Docker" />
+            <Card image={docker} text="Docker" />
           </div>
         </div>
       </div>
