@@ -17,7 +17,7 @@ import docker from "../assets/logos/technologies/docker-svgrepo-com.svg";
 const Technologies = () => {
   return (
     <div className="w-full mt-6 rounded-xl flex flex-col items-center">
-      <h1 className="text-5xl text-[#AC8DAF]">Technologies</h1>
+      <h1 className="text-3xl md:text-5xl text-[#AC8DAF]">Technologies</h1>
       <div className="flex flex-col justify-center items-center w-full mt-9">
         <div className="w-4/5 h-full rounded-xl bg-[#DDB6C6] flex flex-col items-center">
           <h2 className="font-bold text-2xl">Languages</h2>

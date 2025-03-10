@@ -6,8 +6,8 @@ import clientportal from "../assets/projects/clientportal.png";
 const Projects = () => {
   return (
     <div className="w-full mt-6 rounded-xl flex flex-col items-center">
-      <h1 className="text-5xl text-[#AC8DAF]">Projects</h1>
-      <div className="w-10/12 mt-9 grid grid-cols-4">
+      <h1 className="text-3xl md:text-5xl text-[#AC8DAF]">Projects</h1>
+      <div className="w-10/12 mt-9 grid grid-cols-1 md:grid-cols-4">
         <Card
           title="SignalPrint"
           imageUrl={wip}

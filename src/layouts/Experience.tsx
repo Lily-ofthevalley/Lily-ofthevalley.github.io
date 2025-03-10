@@ -16,7 +16,9 @@ const Experience = () => {
 
   return (
     <div className="w-full mt-6 rounded-xl flex flex-col items-center">
-      <h1 className="text-5xl text-[#AC8DAF]">Experience/Education</h1>
+      <h1 className="text-3xl md:text-5xl text-[#AC8DAF]">
+        Experience/Education
+      </h1>
       <div className="flex flex-col justify-center items-center w-full h-full mt-9">
         <div className="w-4/5 h-full rounded-xl bg-[#DDB6C6] flex flex-col items-center p-3">
           <div className="h-1/20 border-2 border-[#AC8DAF] w-full rounded-4xl relative">
