@@ -22,7 +22,7 @@ const Card = ({
       <img
         src={imageUrl}
         alt={title}
-        className="w-full h-46 object-cover rounded-t-xl"
+        className="w-full h-46 object-fit rounded-t-xl"
       />
       <div className="p-3 flex flex-col flex-grow">
         <h1 className="text-bold text-2xl">{title}</h1>
