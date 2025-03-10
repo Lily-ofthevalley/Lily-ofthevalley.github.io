@@ -8,11 +8,11 @@ interface Props {
 
 const Card = ({ imageUrl, name, timeframe, title, note }: Props) => {
   return (
-    <div className="w-full min-h-1/5 h-auto bg-[#AC8DAF] rounded-4xl flex items-center mb-3 p-3">
+    <div className="w-full min-h-1/5 h-auto bg-[#AC8DAF] rounded-4xl flex flex-col md:flex-row mb-3 p-3">
       <img
         src={imageUrl}
         alt={name}
-        className="w-1/5 h-auto ml-3 mr-3 rounded-xl"
+        className="w-4/5 md:w-1/5 h-auto ml-3 mr-3 rounded-xl self-center"
       />
       <div>
         <p className="text-lg font-bold">{name}</p>

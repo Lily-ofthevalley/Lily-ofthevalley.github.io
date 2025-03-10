@@ -21,7 +21,7 @@ const Experience = () => {
       </h1>
       <div className="flex flex-col justify-center items-center w-full h-full mt-9">
         <div className="w-4/5 h-full rounded-xl bg-[#DDB6C6] flex flex-col items-center p-3">
-          <div className="h-1/20 border-2 border-[#AC8DAF] w-full rounded-4xl relative">
+          <div className="h-6 md:h-1/20 border-2 border-[#AC8DAF] w-full rounded-4xl relative">
             {/* Sliding background bar */}
             <div
               className={`w-1/2 bg-[#AC8DAF] rounded-full h-full absolute transition-transform duration-300 ease-in-out ${
