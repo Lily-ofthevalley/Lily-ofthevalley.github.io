@@ -11,14 +11,23 @@ function App() {
     <div className="flex flex-col items-center">
       <Header />
       <Socials />
-      <div className="w-full flex justify-center mt-36 mb-24">
+      <div
+        className="w-full flex justify-center mt-36 mb-36 scroll-m-36"
+        id="home"
+      >
         <AboutMe />
       </div>
-      <div className="w-full flex flex-row justify-center pt-3 pb-3 pl-10 pr-10">
+      <div
+        className="w-full flex flex-row justify-center pt-3 pb-3 pl-10 pr-10 scroll-m-24"
+        id="technologies"
+      >
         <Technologies />
         <Experience />
       </div>
-      <div className="w-full flex justify-center pt-3 pb-3">
+      <div
+        className="w-full flex justify-center pt-3 pb-3 scroll-m-24"
+        id="projects"
+      >
         <Projects />
       </div>
       <Footer />
