@@ -21,7 +21,7 @@ const Technologies = () => {
       <div className="flex flex-col justify-center items-center w-full mt-9">
         <div className="w-4/5 h-full rounded-xl bg-[#DDB6C6] flex flex-col items-center">
           <h2 className="font-bold text-2xl">Languages</h2>
-          <div className="w-full grid grid-cols-5">
+          <div className="w-full grid grid-cols-3 md:grid-cols-5">
             <Card image={python} text="Python" />
             <Card image={typescript} text="Typescript" />
             <Card image={html} text="Html" />
@@ -30,13 +30,13 @@ const Technologies = () => {
             <Card image={sql} text="Sql" />
           </div>
           <h2 className="font-bold text-2xl">Frameworks/Libraries</h2>
-          <div className="w-full grid grid-cols-5">
+          <div className="w-full grid grid-cols-3 md:grid-cols-5">
             <Card image={django} text="Django" />
             <Card image={react} text="React" />
             <Card image={tailwind} text="Tailwindcss" />
           </div>
           <h2 className="font-bold text-2xl">Other</h2>
-          <div className="w-full grid grid-cols-5">
+          <div className="w-full grid grid-cols-3 md:grid-cols-5">
             <Card image={azure} text="Microsoft Azure" />
             <Card image={github} text="Github" />
             <Card image={mysql} text="MySQL" />
