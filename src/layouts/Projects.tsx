@@ -1,5 +1,5 @@
 import Card from "../components/Projects/Card";
-import wip from "../assets/projects/WorkInProgress.png";
+import signalprint from "../assets/projects/SignalPrint.png";
 import youdashit from "../assets/projects/youdashit.png";
 import clientportal from "../assets/projects/clientportal.png";
 
@@ -10,12 +10,11 @@ const Projects = () => {
       <div className="w-10/12 mt-9 grid grid-cols-1 md:grid-cols-4">
         <Card
           title="SignalPrint"
-          imageUrl={wip}
+          imageUrl={signalprint}
           info="Python"
           description="This is a program which gathers the information from the network you are currently logged into and generates an STL file based on that information which you can 3d print to get a custom sign with which you'll be able to log into your wifi."
           linkName="The repository"
           link="https://github.com/Lily-ofthevalley/3D-Wifi-QR-code-generator"
-          warning="Not finished"
         />
         <Card
           title="YouDash-IT"
